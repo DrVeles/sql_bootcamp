@@ -1,0 +1,5 @@
+COMMENT ON TABLE person_discounts IS 'The table contains all people, all pizzerias, and the discount percentage for a person at a given pizzeria | Таблица содержит в себе всех людей, все пиццерии и процент скидки для человека в данной пиццерии';
+COMMENT ON COLUMN person_discounts.id IS 'Unique primary key for each row in the table | Уникальный primary key для каждой строки в таблице';
+COMMENT ON COLUMN person_discounts.person_id IS 'Foreign key referring to the person''s id | Foreign key ссылающийся на id человека';
+COMMENT ON COLUMN person_discounts.pizzeria_id IS 'Foreign key referring to the pizzeria id | Foreign key ссылающийся на id пиццерии';
+COMMENT ON COLUMN person_discounts.discount IS 'Percentage amount of discount for a person at a pizzeria | Размер скидки для человека в пиццерии в процентах';
